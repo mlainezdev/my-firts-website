@@ -1,21 +1,50 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera pagina web</title>
+    <title>Profile Card</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">MiSitio</div>
-        <ul class="nav-list">
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Acerca</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Contacto</a></li>
-        </ul>
-      </nav>
+    <div class="profile-container">
+        <div class="profile-card">
+            <div class="blue-shape"></div>
+            <div class="profile-content">
+                <div class="profile-header">
+                    <div class="profile-img">
+                        <img src="https://res.cloudinary.com/dmydsvqhk/image/upload/v1748305357/foto_vuc5jq.jpg" alt="Bradley Steve">
+                    </div>
+                    <div class="profile-info">
+                        <h2 class="profile-name">Astul Laínez</h2>
+                        <p class="profile-handle">@mlainezDev</p>
+                        <p class="profile-bio">Soy un Desarrollador Front End, sígueme para ser el primero en ver mis nuevos trabajos.</p>
+                    </div>
+                </div>
+                
+                <div class="profile-stats">
+                    <div class="stat">
+                        <h3>15K</h3>
+                        <p>Views</p>
+                    </div>
+                    <div class="stat">
+                        <h3>82</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat">
+                        <h3>1.3M</h3>
+                        <p>Followers</p>
+                    </div>
+                </div>
+                
+                <div class="profile-actions">
+                    <button class="btn btn-primary">Follow</button>
+                    <a href="https://github.com/mlainezdev" target="_blank" class="btn btn-outline">View profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./js/main.js"></script>
 </body>
-
 </html>
